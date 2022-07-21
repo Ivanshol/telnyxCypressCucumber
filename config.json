@@ -1,0 +1,14 @@
+{
+
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1440,
+    "viewportHeight": 780,
+    "defaultCommandTimeout": 15000,
+    "pageLoadTimeout": 70000,
+    "requestTimeout": 15000,
+    "responseTimeout": 30000,
+    "execTimeout": 60000,
+    "taskTimeout": 60000,
+    "experimentalInteractiveRunEvents": true
+  
+  }
