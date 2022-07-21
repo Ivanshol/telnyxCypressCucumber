@@ -12,8 +12,15 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v4
+        with:
+          install-command: npm install
+          build: npm run build
+          start: npm start
+        continue-on-error: true
+        
       - name: Generate report
         run: npm run node ./cypress/report.js
+        
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
