@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Footer links testing",
+    "line": 1,
+    "id": "footer-links-testing",
+    "tags": [],
+    "uri": "footerLinks.feature",
+    "elements": [
+      {
+        "id": "footer-links-testing;testing-footer-product-menu-links",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Testing footer product menu links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 17230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I test footer product menu links",
+            "result": {
+              "status": "passed",
+              "duration": 38303000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-links-testing;testing-footer-pricing-menu-links",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Testing footer pricing menu links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I test footer pricing menu links",
+            "result": {
+              "status": "passed",
+              "duration": 7538000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-links-testing;testing-footer-company-menu-links",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Testing footer company menu links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I test footer single parameter menu links",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 15050ms: `cy.click()` failed because this element is detached from the DOM.\n\n`<a href=\"/privacy-policy\" class=\"sc-f97529d6-0 bjUuRN mchNoDecorate\">...</a>`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.scrollIntoView()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n    at $Cy.ensureAttached (https://telnyx.com/__cypress/runner/cypress_runner.js:167985:76)\n    at runAllChecks (https://telnyx.com/__cypress/runner/cypress_runner.js:154413:12)\n    at retryActionability (https://telnyx.com/__cypress/runner/cypress_runner.js:154493:16)\nFrom previous event:\n    at whenStable (https://telnyx.com/__cypress/runner/cypress_runner.js:173538:65)\n    at https://telnyx.com/__cypress/runner/cypress_runner.js:172993:14\nFrom previous event:\n    at $Cy.retry (https://telnyx.com/__cypress/runner/cypress_runner.js:172973:76)\n    at retryActionability (https://telnyx.com/__cypress/runner/cypress_runner.js:154496:19)\nFrom previous event:\n    at https://telnyx.com/__cypress/runner/cypress_runner.js:173547:60\n    at $Cy.isStable (https://telnyx.com/__cypress/runner/cypress_runner.js:173528:7)\n    at HTMLIFrameElement.<anonymous> (https://telnyx.com/__cypress/runner/cypress_runner.js:178013:16)\n    at HTMLIFrameElement.dispatch (https://telnyx.com/__cypress/runner/cypress_runner.js:117089:27)\n    at elemData.handle (https://telnyx.com/__cypress/runner/cypress_runner.js:116897:28)\nFrom Your Spec Code:\n    at TelnyxFooter.clickFooterLinkSingle (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:160:71)\n    at TelnyxFooter.verifyFooterLinkSingle (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:165:12)\n    at eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:80:30)\nat Array.forEach (<anonymous>)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:79:27)\n    at Context.resolveAndRunStepDefinition (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:20047:29)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\footerLinks.feature:19368:35)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

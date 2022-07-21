@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Log In function testing",
+    "line": 1,
+    "id": "log-in-function-testing",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "log-in-function-testing;logging-in-with-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Logging in with incorrect credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 116654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click log in button",
+            "result": {
+              "status": "passed",
+              "duration": 8288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I type incorrect credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "error should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 845000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-in-function-testing;logging-in-with-incorrect-data",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Logging in with incorrect data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click log in button",
+            "result": {
+              "status": "passed",
+              "duration": 4186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I type incorrect data",
+            "result": {
+              "status": "passed",
+              "duration": 1255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "email error should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-in-function-testing;logging-in-with-proper-credentials",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Logging in with proper credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 4080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click log in button",
+            "result": {
+              "status": "passed",
+              "duration": 5287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I type my log in credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I click Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "account page loads",
+            "result": {
+              "status": "passed",
+              "duration": 10197000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

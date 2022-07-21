@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Email Field testing",
+    "line": 1,
+    "id": "email-field-testing",
+    "tags": [],
+    "uri": "emailField.feature",
+    "elements": [
+      {
+        "id": "email-field-testing;typing-incorrect-data-into-email-field-and-clicking-try-for-free-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Typing incorrect data into email field and clicking try for free button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 5428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I type incorrect data into email field",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the try for free button",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the url stays the same",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "email-field-testing;typing-correct-data-into-email-field-and-verifying-the-sign-up-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Typing correct data into email field and verifying the sign up page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I type correct data into email field",
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click the try for free button",
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the sign up page loads",
+            "result": {
+              "status": "passed",
+              "duration": 3804000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

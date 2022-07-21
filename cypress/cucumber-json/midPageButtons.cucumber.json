@@ -1,0 +1,312 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Mid-page button navigation testing",
+    "line": 1,
+    "id": "mid-page-button-navigation-testing",
+    "tags": [],
+    "uri": "midPageButtons.feature",
+    "elements": [
+      {
+        "id": "mid-page-button-navigation-testing;testing-messaging-api-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Testing Messaging API Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 162837000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click messaging api button",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "messaging api page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 2156000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mid-page-button-navigation-testing;testing-video-api-button",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Testing Video API Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click video api button",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "video api page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 1853000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mid-page-button-navigation-testing;testing-wireless-button",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Testing Wireless Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click wireless button",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "wireless page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 1859000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mid-page-button-navigation-testing;testing-voice-api-button",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Testing Voice API Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click voice api button",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "voice-api page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 3193000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mid-page-button-navigation-testing;testing-elastic-sip-trunking-button",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Testing Elastic SIP Trunking Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I click elastic sip-trunking button",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "elastic sip-trunking page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 2174000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mid-page-button-navigation-testing;testing-storage-button",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Testing Storage Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I scroll mid-page buttons into view",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click storage button",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "storage page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 1356000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

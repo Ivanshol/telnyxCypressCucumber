@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Upper navigation block testing",
+    "line": 1,
+    "id": "upper-navigation-block-testing",
+    "tags": [],
+    "uri": "upperNavigation.feature",
+    "elements": [
+      {
+        "id": "upper-navigation-block-testing;clicking-log-in-button-and-verifying-the-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Clicking log in button and verifying the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 212818000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click upper log in button",
+            "result": {
+              "status": "passed",
+              "duration": 5211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the log in page loads",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "upper-navigation-block-testing;clicking-talk-to-an-expert-button-and-verifying-the-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Clicking talk to an expert button and verifying the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click upper talk to an expert button",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the contact us page loads",
+            "result": {
+              "status": "passed",
+              "duration": 6225000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "upper-navigation-block-testing;clicking-talk-sign-up-button-and-verifying-the-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Clicking talk sign up button and verifying the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click upper sign up button",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the sign up page loads",
+            "result": {
+              "status": "passed",
+              "duration": 3516000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "upper-navigation-block-testing;clicking-join-the-waitlist-button-and-verifying-the-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Clicking join the waitlist button and verifying the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I click join the waitlist button",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the cloud storage page loads",
+            "result": {
+              "status": "passed",
+              "duration": 1868000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
