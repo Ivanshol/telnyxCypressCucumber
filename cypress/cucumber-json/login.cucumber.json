@@ -8,126 +8,6 @@
     "uri": "login.feature",
     "elements": [
       {
-        "id": "log-in-function-testing;logging-in-with-incorrect-credentials",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Logging in with incorrect credentials",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 4,
-            "name": "I open the home page",
-            "result": {
-              "status": "passed",
-              "duration": 104200000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 5,
-            "name": "I click log in button",
-            "result": {
-              "status": "passed",
-              "duration": 10518000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "I type incorrect credentials",
-            "result": {
-              "status": "passed",
-              "duration": 1585000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I click Log in button",
-            "result": {
-              "status": "passed",
-              "duration": 358000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "error should be visible",
-            "result": {
-              "status": "passed",
-              "duration": 760000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-in-function-testing;logging-in-with-incorrect-data",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "Logging in with incorrect data",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "I open the home page",
-            "result": {
-              "status": "passed",
-              "duration": 3244000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "I click log in button",
-            "result": {
-              "status": "passed",
-              "duration": 4083000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "I type incorrect data",
-            "result": {
-              "status": "passed",
-              "duration": 1596000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "I click Log in button",
-            "result": {
-              "status": "passed",
-              "duration": 331000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "email error should be visible",
-            "result": {
-              "status": "passed",
-              "duration": 150000000
-            }
-          }
-        ]
-      },
-      {
         "id": "log-in-function-testing;logging-in-with-proper-credentials",
         "keyword": "Scenario",
         "line": 17,
@@ -142,7 +22,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 3846000000
+              "duration": 4025000000
             }
           },
           {
@@ -152,7 +32,7 @@
             "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 5921000000
+              "duration": 5598000000
             }
           },
           {
@@ -162,7 +42,7 @@
             "name": "I type my log in credentials",
             "result": {
               "status": "passed",
-              "duration": 1753000000
+              "duration": 1304000000
             }
           },
           {
@@ -172,7 +52,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 372000000
+              "duration": 250000000
             }
           },
           {
@@ -182,7 +62,7 @@
             "name": "account page loads",
             "result": {
               "status": "passed",
-              "duration": 10171000000
+              "duration": 10691000000
             }
           }
         ]

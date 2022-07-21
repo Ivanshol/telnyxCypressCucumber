@@ -34,6 +34,11 @@ Then('account page loads', () => {
     cy.get('react-learn-and-build-message').should('be.visible');
 })
 
+Then('I log out', () => {
+    cy.get('[viewBox="0 0 320 512"]').eq(0).trigger('mouseover');
+    cy.get('[class="tx-1Iv0kw"]').click();
+})
+
 Then('error should be visible', () => {
     cy.get('[type="error"]').eq(0).should('be.visible')
 })

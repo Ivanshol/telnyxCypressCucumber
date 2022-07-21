@@ -9,7 +9,7 @@ Scenario: Signing up with an email that is already in use
     Then I input password data
     Then I agree to Terms and Conditions
     Then I click create account button
-    Then I see an email error message visible
+    Then I see an existing email error message visible
 
 Scenario: Signing up with empty inputs
     When I open the home page

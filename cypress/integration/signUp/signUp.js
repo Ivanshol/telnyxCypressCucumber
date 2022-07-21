@@ -41,6 +41,10 @@ Then('I click create account button', () => {
     TelnyxSignUpPage.pressCreateAccountButton();
 })
 
+Then('I see an existing email error message visible', () => {
+    cy.get('#signup-form_error').should('be.visible');
+})
+
 Then('I see an email error message visible', () => {
     cy.get('#email_error').should('be.visible');
 })
