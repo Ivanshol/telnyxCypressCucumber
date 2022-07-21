@@ -11,4 +11,8 @@
       "generate": true
     }
   }
+   "scripts": {
+    "test:chrome": "cypress run --browser chrome",
+    "cy:report": "node ./cypress/report"
+}
 }
