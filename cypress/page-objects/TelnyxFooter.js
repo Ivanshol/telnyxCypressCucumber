@@ -6,7 +6,7 @@ export const footerPricingLinks = ['elastic-sip', 'messaging', 'call-control', '
 
 export const footerCompanyLinks = ['about', 'careers', 'data-privacy']
 
-export const footerLinks = ['number-lookup', 'products', 'resources', 'learn', 'release-notes', 'privacy-policy', 
+export const footerLinks = ['number-lookup', 'products', 'resources', 'learn', 'release-notes', 
 'cookie-policy', 'acceptable-use-policy', 'terms-and-conditions', 'report-abuse']
 
 class TelnyxFooter{

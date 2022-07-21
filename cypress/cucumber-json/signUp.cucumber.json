@@ -22,7 +22,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 184744000000
+              "duration": 171739000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I click sign up button",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 3896000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "the sign up page loads",
             "result": {
               "status": "passed",
-              "duration": 3753000000
+              "duration": 123000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I input existing email data",
             "result": {
               "status": "passed",
-              "duration": 886000000
+              "duration": 878000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I input name data",
             "result": {
               "status": "passed",
-              "duration": 581000000
+              "duration": 657000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I input password data",
             "result": {
               "status": "passed",
-              "duration": 488000000
+              "duration": 521000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I agree to Terms and Conditions",
             "result": {
               "status": "passed",
-              "duration": 240000000
+              "duration": 289000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click create account button",
             "result": {
               "status": "passed",
-              "duration": 236000000
+              "duration": 301000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I see an email error message visible",
             "result": {
               "status": "passed",
-              "duration": 5300000000
+              "duration": 3904000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 1109000000
+              "duration": 2251000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I click sign up button",
             "result": {
               "status": "passed",
-              "duration": 3373000000
+              "duration": 3545000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "the sign up page loads",
             "result": {
               "status": "passed",
-              "duration": 61000000
+              "duration": 130000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I click create account button",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 433000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I see an email error message visible",
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 100000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "I see a name error message visible",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 101000000
             }
           }
         ]
@@ -192,7 +192,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 1122000000
+              "duration": 1245000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I click sign up button",
             "result": {
               "status": "passed",
-              "duration": 196000000
+              "duration": 225000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "the sign up page loads",
             "result": {
               "status": "passed",
-              "duration": 3233000000
+              "duration": 3065000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "I input incorrect email data",
             "result": {
               "status": "passed",
-              "duration": 422000000
+              "duration": 656000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "I click create account button",
             "result": {
               "status": "passed",
-              "duration": 191000000
+              "duration": 401000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "I see an email error message visible",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 128000000
             }
           }
         ]
@@ -262,7 +262,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 1045000000
+              "duration": 2322000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "I click sign up button",
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 466000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "the sign up page loads",
             "result": {
               "status": "passed",
-              "duration": 2462000000
+              "duration": 4101000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "I input existing email data",
             "result": {
               "status": "passed",
-              "duration": 730000000
+              "duration": 845000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "I input name data",
             "result": {
               "status": "passed",
-              "duration": 466000000
+              "duration": 557000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "I agree to Terms and Conditions",
             "result": {
               "status": "passed",
-              "duration": 171000000
+              "duration": 360000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "I click create account button",
             "result": {
               "status": "passed",
-              "duration": 182000000
+              "duration": 318000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "I see password requirements visible",
             "result": {
               "status": "passed",
-              "duration": 48000000
+              "duration": 110000000
             }
           }
         ]

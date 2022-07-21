@@ -22,7 +22,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 116654000000
+              "duration": 104200000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 8288000000
+              "duration": 10518000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I type incorrect credentials",
             "result": {
               "status": "passed",
-              "duration": 1623000000
+              "duration": 1585000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 320000000
+              "duration": 358000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "error should be visible",
             "result": {
               "status": "passed",
-              "duration": 845000000
+              "duration": 760000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 3432000000
+              "duration": 3244000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 4186000000
+              "duration": 4083000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I type incorrect data",
             "result": {
               "status": "passed",
-              "duration": 1255000000
+              "duration": 1596000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 458000000
+              "duration": 331000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "email error should be visible",
             "result": {
               "status": "passed",
-              "duration": 433000000
+              "duration": 150000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 4080000000
+              "duration": 3846000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 5287000000
+              "duration": 5921000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I type my log in credentials",
             "result": {
               "status": "passed",
-              "duration": 1751000000
+              "duration": 1753000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 372000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "account page loads",
             "result": {
               "status": "passed",
-              "duration": 10197000000
+              "duration": 10171000000
             }
           }
         ]

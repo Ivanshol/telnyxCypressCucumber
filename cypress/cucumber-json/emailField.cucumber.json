@@ -22,7 +22,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 5428000000
+              "duration": 2768000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I type incorrect data into email field",
             "result": {
               "status": "passed",
-              "duration": 318000000
+              "duration": 299000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click the try for free button",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 144000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "the url stays the same",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 24000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 3408000000
+              "duration": 2751000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I type correct data into email field",
             "result": {
               "status": "passed",
-              "duration": 563000000
+              "duration": 579000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click the try for free button",
             "result": {
               "status": "passed",
-              "duration": 191000000
+              "duration": 179000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "the sign up page loads",
             "result": {
               "status": "passed",
-              "duration": 3804000000
+              "duration": 4617000000
             }
           }
         ]
