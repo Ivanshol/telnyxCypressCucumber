@@ -12,6 +12,14 @@ Then('I scroll mid-page buttons into view', () => {
     TelnyxPage.scrollMidPageButtonIntoView();
 })
 
+Then('I scroll the calculator into view', () => {
+    TelnyxPage.scrollSavingsCalculatorIntoView();
+})
+
+Then('I click SMS Calculator button', () => {
+    TelnyxPage.clickSMSCalculatorButton();
+})
+
 Then('I click messaging api button', () => {
     TelnyxPage.clickMidPageButton(1);
 })
@@ -64,4 +72,12 @@ Then('elastic sip-trunking page is loaded', () => {
 Then('storage page is loaded', () => {
     cy.url().should('include', 'storage');
     cy.get('div h1').contains('Better cloud storage, for less.')
+})
+
+Then('I check that the calculator properties are default', () => {
+    cy.get('[class="sc-1a5981e5-1 eKnlno"]').eq(0).contains('Make and receive calls from')
+})
+
+Then('I check that the calculator properties change', () => {
+    cy.get('[class="sc-1a5981e5-1 eKnlno"]').eq(0).contains('Make and receive messages from')
 })

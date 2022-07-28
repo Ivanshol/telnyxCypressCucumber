@@ -36,3 +36,10 @@ Scenario: Testing Storage Button
     Then I click storage button
     Then storage page is loaded
 
+Scenario: Testing Savings Calculator proprieties change
+    When I open the home page
+    Then I scroll the calculator into view
+    Then I check that the calculator properties are default
+    Then I click SMS Calculator button
+    Then I check that the calculator properties change
+

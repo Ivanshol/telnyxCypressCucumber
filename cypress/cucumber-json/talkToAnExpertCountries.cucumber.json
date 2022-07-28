@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Checking available countries",
+    "line": 1,
+    "id": "checking-available-countries",
+    "tags": [],
+    "uri": "talkToAnExpertCountries.feature",
+    "elements": [
+      {
+        "id": "checking-available-countries;clicking-talk-to-an-expert-button-and-verifying-the-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Clicking talk to an expert button and verifying the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click upper talk to an expert button",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the contact us page loads",
+            "result": {
+              "status": "passed",
+              "duration": 9185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I check the available countries",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

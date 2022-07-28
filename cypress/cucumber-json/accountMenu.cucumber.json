@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Account Page navigation menu testing",
+    "line": 1,
+    "id": "account-page-navigation-menu-testing",
+    "tags": [],
+    "uri": "accountMenu.feature",
+    "elements": [
+      {
+        "id": "account-page-navigation-menu-testing;logging-in-with-proper-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Logging in with proper credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click log in button",
+            "result": {
+              "status": "passed",
+              "duration": 4019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I type my log in credentials",
+            "result": {
+              "status": "passed",
+              "duration": 11832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click Log in button to sign in",
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "account page loads",
+            "result": {
+              "status": "passed",
+              "duration": 10109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I test navigation menu links",
+            "result": {
+              "status": "passed",
+              "duration": 20445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I log out",
+            "result": {
+              "status": "passed",
+              "duration": 2085000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

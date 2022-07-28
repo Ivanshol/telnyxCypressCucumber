@@ -1,0 +1,212 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing the slider",
+    "line": 1,
+    "id": "testing-the-slider",
+    "tags": [],
+    "uri": "sliders.feature",
+    "elements": [
+      {
+        "id": "testing-the-slider;testing-savings-calculator-proprieties-change-when-increasing-outbound-calls-slider",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Testing Savings Calculator proprieties change when increasing outbound calls slider",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I scroll the calculator into view",
+            "result": {
+              "status": "passed",
+              "duration": 7034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I slide the outbound calls slider to increase the value",
+            "result": {
+              "status": "passed",
+              "duration": 26839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I check that the money value change to a bigger number",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-the-slider;testing-savings-calculator-proprieties-change-when-increasing-inbound-calls-slider",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Testing Savings Calculator proprieties change when increasing inbound calls slider",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I scroll the calculator into view",
+            "result": {
+              "status": "passed",
+              "duration": 7040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I slide the inbound calls slider to increase the value",
+            "result": {
+              "status": "passed",
+              "duration": 27249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I check that the money value change to a bigger number",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-the-slider;testing-savings-calculator-proprieties-change-when-decreasing-outbound-calls-slider",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Testing Savings Calculator proprieties change when decreasing outbound calls slider",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I scroll the calculator into view",
+            "result": {
+              "status": "passed",
+              "duration": 7038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I slide the outbound calls slider to decrease the value",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I check that the money value change to a lesser number",
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-the-slider;testing-savings-calculator-proprieties-change-when-decreasing-inbound-calls-slider",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Testing Savings Calculator proprieties change when decreasing inbound calls slider",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I scroll the calculator into view",
+            "result": {
+              "status": "passed",
+              "duration": 7029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I slide the inbound calls slider to decrease the value",
+            "result": {
+              "status": "passed",
+              "duration": 3923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I check that the money value change to a lesser number",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

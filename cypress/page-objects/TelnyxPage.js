@@ -41,6 +41,73 @@ class TelnyxPage{
         cy.get('body div div h3').eq(`${index}`).click();
     }
 
+    hoverMouseOverMenu(index){
+        cy.get('div ul li>span').eq(`${index}`).trigger('mouseover');
+    }
+
+    scrollHeaderIntoView(index){
+        cy.get('div h2').eq(`${index}`).scrollIntoView();
+    }
+
+    scrollSavingsCalculatorIntoView(){
+        cy.get("a[href='https://telnyx.com/sign-up']").scrollIntoView();
+        cy.wait(7000);
+    }
+
+    clickSMSCalculatorButton(){
+        cy.get('body div div h2~div>div>div>div>div~div>div>button').eq(1).click();
+    }
+
+    clickMakeOutbountSliderAndSlideIncrease(){
+        cy.get(':nth-child(4) > .telnyx-slider > .ant-slider > .ant-slider-handle', { timeout: 10000 }).eq(0).click();
+        let currentValue = 110000;
+        let targetValue = 1000000;
+        const increment = 500;
+        const steps = (targetValue - currentValue) / increment;
+        const arrows = '{rightarrow}'.repeat(steps); 
+      
+        cy.get(':nth-child(4) > .telnyx-slider > .ant-slider > .ant-slider-handle').eq(0)
+          .type(arrows, { timeout: 13000 })
+    }
+
+    clickMakeInboundSliderAndSlideIncrease(){
+        cy.get(':nth-child(5) > .telnyx-slider > .ant-slider > .ant-slider-handle', { timeout: 10000 }).click();
+        let currentValue = 110000;
+        let targetValue = 1000000;
+        const increment = 500;
+        const steps = (targetValue - currentValue) / increment;
+        const arrows = '{rightarrow}'.repeat(steps); 
+      
+        cy.get(':nth-child(5) > .telnyx-slider > .ant-slider > .ant-slider-handle')
+          .type(arrows, { timeout: 13000 })
+    }
+
+    clickMakeOutboundSliderAndSlideDecrease(){
+        cy.get(':nth-child(4) > .telnyx-slider > .ant-slider > .ant-slider-handle', { timeout: 10000 }).eq(0).click();
+        let currentValue = 240000;
+        let targetValue = 500;
+        const increment = 500;
+        const steps = (currentValue - targetValue) / increment;
+        const arrows = '{leftarrow}'.repeat(steps); 
+      
+        cy.get(':nth-child(4) > .telnyx-slider > .ant-slider > .ant-slider-handle').eq(0)
+          .type(arrows, { timeout: 13000 })
+    }
+
+    
+    clickMakeInboundSliderAndSlideDecrease(){
+        cy.get(':nth-child(5) > .telnyx-slider > .ant-slider > .ant-slider-handle', { timeout: 10000 }).click();
+        let currentValue = 110000;
+        let targetValue = 500;
+        const increment = 500;
+        const steps = (currentValue - targetValue) / increment;
+        const arrows = '{leftarrow}'.repeat(steps); 
+      
+        cy.get(':nth-child(5) > .telnyx-slider > .ant-slider > .ant-slider-handle')
+          .type(arrows, { timeout: 13000 })
+    }
+
+
 }
 
 export default new TelnyxPage()
